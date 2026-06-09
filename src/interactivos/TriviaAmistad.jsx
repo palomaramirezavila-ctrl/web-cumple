@@ -49,7 +49,7 @@ function TriviaAmistad() {
       <div className="washi-tape-blue" style={{ background: 'rgba(157, 217, 210, 0.7)', top: '-12px' }}></div>
       
       <h3 style={{ fontFamily: 'Caveat', fontSize: '2.3rem', color: '#79b4b7', marginTop: 0, marginBottom: '5px' }}>
-        ✏️ Test de Telepatía BFF
+        ✏️ Test de Telepatía
       </h3>
       <p style={{ color: '#888', fontSize: '0.85rem', margin: '0 0 20px 0' }}>¿Qué tan aka eres?</p>
 
