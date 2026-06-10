@@ -61,9 +61,9 @@ export default function ContadorAmistad() {
       <div className="washi-tape-pink" style={{ width: '90px' }}></div>
       
       <h3 style={{ fontFamily: 'Caveat', fontSize: '2.4rem', color: '#ff85a1', marginTop: 0, marginBottom: '5px' }}>
-        ⏳ Nuestro Tiempo Juntas
+        ⏳ Tiempo siendo amigas.
       </h3>
-      <p style={{ color: '#888', fontSize: '0.85rem', margin: '0 0 25px 0' }}>Cada segundo a tu lado cuenta...</p>
+      <p style={{ color: '#888', fontSize: '0.85rem', margin: '0 0 25px 0' }}>Cada segundo cuenta...</p>
 
       {/* Grid del Reloj de Amistad */}
       <div style={{ 
