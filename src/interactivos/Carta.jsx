@@ -38,7 +38,7 @@ function Carta() {
         whiteSpace: 'pre-line'
       }}>
         
-        Primero que nada feliz cumpleaños tonta, espero que sepas lo mucho que te quiero y lo especial 
+        Primero que nada te quiero mucho tonta, espero que sepas lo especial 
 que eres en mi vida, si me hubieran dicho que a la werka que mire ese dia en esa tienda fea y
  que me daba pinta de bellakita se iba a convertir en mi mejor amiga la verdad no me lo hubiera creido, 
  pero ahora no lo hubiera querido de otra forma, pues ya no me veo sin ti. Eres una persona increible 
