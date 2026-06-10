@@ -37,17 +37,18 @@ function Carta() {
         margin: 0,
         whiteSpace: 'pre-line'
       }}>
-      
-        Primero que nada feliz cumpleaños tonta, espero que sepas lo mucho que te quiero y lo especial que eres
-        en mi vida, si me hubieran dicho que a la werka que mire ese dia en esa tienda fea y que me daba pinta
-        de bellakita se iba a convertir en mi mejor amiga la verdad no me lo hubiera creido, pero ahora no lo hubiera querido
-        de otra forma, pues ya no me veo sin ti. Eres una persona increible y aunque si eres medio bastardita creo que todo lo
-        demas lo compensas con tu manera de ser, y tu linda personalidad, aunque me de cosa decirtelo. 
-
-        Eres y siempre seras mi mejor amiga, porque cuando mas te necesitaba llegaste a mi vida y ahora quiero estar en la
-        tuya cada que tu lo necesites. Espero que estos proximos años que vengan sean los mejores para ti, porque aunque
-        ya no volveremos a tener 16-17 y a vivir sin responsabilidades, se que eres capaz de lograr lo que sea. 
-         ★
+        
+        Primero que nada feliz cumpleaños tonta, espero que sepas lo mucho que te quiero y lo especial 
+que eres en mi vida, si me hubieran dicho que a la werka que mire ese dia en esa tienda fea y
+ que me daba pinta de bellakita se iba a convertir en mi mejor amiga la verdad no me lo hubiera creido, 
+ pero ahora no lo hubiera querido de otra forma, pues ya no me veo sin ti. Eres una persona increible 
+ y aunque si eres medio bastardita creo que todo lo demas lo compensas con tu manera de ser, 
+ y tu linda personalidad, aunque me de cosa decirtelo. 
+ 
+ Eres y siempre seras mi mejor amiga, porque cuando mas te necesitaba llegaste a mi vida
+  y ahora quiero estar en la tuya cada que tu lo necesites. Espero que estos proximos años 
+  que vengan sean los mejores para ti, porque aunque ya no volveremos a tener 16-17
+   y a vivir sin responsabilidades, se que eres capaz de lograr lo que sea. ★
       </p>
 
       <div style={{ textAlign: 'right', marginTop: '30px', fontSize: '2rem' }}>

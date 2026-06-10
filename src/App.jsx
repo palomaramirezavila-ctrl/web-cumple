@@ -7,66 +7,41 @@ import ContadorAmistad from './interactivos/ContadorAmistad';
 import Carta from './interactivos/Carta';
 import FrascoRazones from './interactivos/FrascoRazones';
 import PlaylistRecuerdos from './interactivos/PlaylistRecuerdos';
-import TriviaAmistad from './interactivos/TriviaAmistad'; // 👈 AGREGAMOS ESTE IMPORT
-import GalletaFortuna from './interactivos/GalletaFortuna'; // 👈 Y ESTE IMPORT
+import TriviaAmistad from './interactivos/TriviaAmistad';
+import GalletaFortuna from './interactivos/GalletaFortuna';
+import DibujosFondo from './interactivos/DibujosFondo'; // 👈 IMPORTAMOS EL LINE ART
 
 function App() {
   const [comenzar, setComenzar] = useState(false);
 
   return (
     <div className="app-container">
+      {/* El Line Art va aquí arriba para que sirva de fondo de pantalla interactivo */}
+      <DibujosFondo />
+      
       {!comenzar ? (
-        /* PANTALLA DE BIENVENIDA AESTHETIC */
-        <div style={{ textAlign: 'center', marginTop: '15vh' }}>
+        <div style={{ textAlign: 'center', marginTop: '17vh', position: 'relative', zIndex: 5 }}>
           <span style={{ fontSize: '3rem' }}>💌🌸✨</span>
-          <h1 className="handwritten-title">Feliz cumple...</h1>
+          <h1 className="handwritten-title">Hola mekilla...</h1>
           <p style={{ color: '#8898aa', marginBottom: '30px', fontSize: '1.2rem', letterSpacing: '2px' }}>26/07/26</p>
           <button className="scrapbook-btn" onClick={() => setComenzar(true)}>
             Abrir diario 📖
           </button>
         </div>
       ) : (
-        /* PANTALLA PRINCIPAL: EL DIARIO DE RECUERDOS */
-        <div style={{ width: '100%', maxWidth: '700px', textAlign: 'center', padding: '20px 0' }}>
+        <div style={{ width: '100%', maxWidth: '700px', textAlign: 'center', padding: '20px 0', position: 'relative', zIndex: 5 }}>
           <MusicaFondo />
           
           <h1 className="handwritten-title" style={{ fontSize: '4rem' }}>¡Feliz Cumpleaños! 🎂</h1>
-          <p style={{ color: '#718096', marginTop: '-10px', fontSize: '1.1rem' }}>Hoy se festeja a mi persona favorita</p>
+          <p style={{ color: '#718096', marginTop: '-10px', fontSize: '1.1rem' }}>Hoy al fin eres legal</p>
           
-          {/* 1. El pastel para soplar las velas */}
-          <section style={{ margin: '50px 0' }}>
-            <Pastel />
-          </section>
-
-          {/* 2. El reloj dinámico que cuenta su tiempo juntas */}
-          <section style={{ margin: '40px 0' }}>
-            <ContadorAmistad />
-          </section>
-
-          {/* 3. Tu carta escrita a mano */}
-          <section style={{ margin: '40px 0' }}>
-            <Carta />
-          </section>
-
-          {/* 4. El frasquito de los papelitos de la suerte */}
-          <section style={{ margin: '40px 0' }}>
-            <FrascoRazones />
-          </section>
-
-          {/* 5. Tus canciones y las portadas estilo Polaroid */}
-          <section style={{ margin: '40px 0' }}>
-            <PlaylistRecuerdos />
-          </section>
-
-          {/* 6. El juego de preguntas de telepatía */}
-          <section style={{ margin: '40px 0' }}>
-            <TriviaAmistad />
-          </section>
-
-          {/* 7. La galletita de la fortuna para cerrar */}
-          <section style={{ margin: '40px 0' }}>
-            <GalletaFortuna />
-          </section>
+          <section style={{ margin: '50px 0' }}><Pastel /></section>
+          <section style={{ margin: '40px 0' }}><ContadorAmistad /></section>
+          <section style={{ margin: '40px 0' }}><Carta /></section>
+          <section style={{ margin: '40px 0' }}><FrascoRazones /></section>
+          <section style={{ margin: '40px 0' }}><PlaylistRecuerdos /></section>
+          <section style={{ margin: '40px 0' }}><TriviaAmistad /></section>
+          <section style={{ margin: '40px 0' }}><GalletaFortuna /></section>
         </div>
       )}
     </div>

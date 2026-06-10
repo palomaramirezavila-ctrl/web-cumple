@@ -6,8 +6,8 @@ export default function ContadorAmistad() {
   // Ojo: En JavaScript los meses van de 0 a 11 (0 es Enero, 5 es Junio, 6 es Julio, etc.)
   // Ejemplo: New Date(2018, 4, 15) es el 15 de Mayo de 2018.
   const anio = 2024;
-  const mes = 11; 
-  const dia = 23;
+  const mes = 10; 
+  const dia = 24;
 
   const [tiempo, setTiempo] = useState({
     anios: 0, meses: 0, dias: 0, horas: 0, minutos: 0, segundos: 0
@@ -100,7 +100,7 @@ export default function ContadorAmistad() {
       </div>
 
       <p style={{ fontFamily: 'Caveat', fontSize: '1.6rem', color: '#6c5a5a', marginTop: '25px', marginBottom: 0 }}>
-       Vamos por menos! 🧸🍀★
+        !Vamos por menos! ★
       </p>
     </div>
   );

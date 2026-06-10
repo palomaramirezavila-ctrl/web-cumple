@@ -76,6 +76,7 @@ body {
   border-right: 2px dashed rgba(255,255,255,0.4);
   z-index: 10;
 }
+
 /* Bloques del reloj contador */
 .reloj-bloque {
   background: #fffafb;
@@ -100,4 +101,20 @@ body {
   text-transform: uppercase;
   color: #a0aec0;
   letter-spacing: 0.5px;
+}
+
+/* Animación para que la galletita flote de forma tierna */
+.bounce-animation {
+  animation: flotar 3s ease-in-out infinite;
+}
+
+@keyframes flotar {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+/* Animación del papelito saliendo */
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }
